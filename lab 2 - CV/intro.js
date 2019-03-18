@@ -63,7 +63,7 @@ function showSkills() {
     var skills = ['html', 'css', 'js', 'funny'];
 
     var htmlSkills = skills.map(function(skill, index) {
-        return '<li>' + skill + '</li>';
+        return '<li>' + skill.toUpperCase() + '</li>';
      });
 
     var ul = document.querySelector('#skills-page ul');
