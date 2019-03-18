@@ -4,3 +4,4 @@ dom elem = cele din browser
 string concatenare
 hoinsting
 plural -> foreach -> singular
+for each = no output
