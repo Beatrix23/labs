@@ -1,0 +1,7 @@
+notite 04.03.2019
+lay-out - arhitecture
+css- numele fara spatii
+[ array ] 
+json - obiect mai complex { .. }
+() eu transmit ceva la functie 
+numele functiei () = call

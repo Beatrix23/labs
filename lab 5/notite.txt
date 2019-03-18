@@ -1,0 +1,42 @@
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCw/xuZXnbErdKw1i1m9qNsgeAt/MiM4mChYMshnUIhNt8tlxLwuvY9nUTCLD8EkCySOD4NzplsXVOy42TgI3mcA5lG8vWdFGAU8XUYpjbGMQ26YEbFVw6DXv0tSD3wRins3Te1/wP5e/mjCa3WYqUyq7mm3KQztWn4HTVjUBX0QTokYWgif9TpK08s6odItathBj9uKuroVnJ/lW//lqpyFFS0eCA2VYl5v0OO3ZLbRUSZ+yxbZdbiZ5Gx0JSPl2/OMZxwC2g1trOAyTIYPDkW+xU5FLm3rPAW1Bzm5hf6Iun23ZMLsSHiqKJQK8SLLoND80dLIwYU/kCw1K3xzQQ7lCmY9y1hmbqOePWrbLuMjWe9G9gzQiVSmoNuvqjZVJ8H6zi5+4Oj73cFdeowaOb6C69X0uG6CtoYNFcj0SXTycVYEBnwUoJPlA2TQfZgAR5EBj82Ei5PTrM5DJQ4PbQ4hRS5YFn8sv+4iE6u9udlZ/OrXQoRYHw1Ku8T+dpEQe2Vlj1e+k2BgIevw2wu7J8xpfxKyOeHYex15CEhh6yZn7f7haxhk7S0hadr/Z7GL8L08cnxKrOQTNa2asDF5JezhDMNpyHFum3xdVHr4mCE3TMbB5DTUTz+C0hQpnWN+7HETLXMw56uZGrbtIn9BZEpXB0TSIMFwmdOO/7IvWKPrQ== beatrixsocaci@gmail.com
+$ - semn de terminal 
+cd = change directory
+//first example
+function hideHomePage() {
+    document.getElementById('home-page').style.display = 'none';
+}
+ 
+function showSkillsPage() {
+    document.getElementById('skills-page').style.display = 'block';
+}
+function clickOnHome() {
+    hidePage('skills-page');
+    hidePage('languages-page');
+    hidePage('about-page');
+    showPage('home-page');
+ }
+
+function clickOnSkills() {
+   // hideHomePage();
+   // showSkillsPage();
+   hidePage('home-page');
+   hidePage('languages-page');
+   hidePage('about-page');
+   showPage('skills-page');
+}
+
+function clickOnLanguages() {
+    hidePage('home-page');
+    hidePage('about-page');
+    hidePage('skills-page');
+    showPage('languages-page');
+}
+
+function clickOnAbout () {
+    hidePage('home-page');
+    hidePage('skills-page');
+    hidePage('languages-page');
+    showPage('about-page');
+}
+//first exemple-end
+initializare

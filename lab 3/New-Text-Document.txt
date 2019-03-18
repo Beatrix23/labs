@@ -1,0 +1,109 @@
+Legatura cu un fisier extern: <script src(src=sursa)="unde e fisierul"></script>
+Se pune tot timpu in body LA FINAL
+
+
+<script>
+ console.log("Exemplu");
+</script>
+Locul unde ne apar erorile, fata de php cand apar direct pe site.
+
+
+O variabila e un loc unde putem retine anumite date, informatii.
+Depinde daca folosim litere mici sau mari in interioru variabilelor.
+Folosim variabilele daca avem mai multe randuri de cod unde vrem sa schimbam informatia
+<script>
+ var NumeDorit; *Am creat o variabila.
+ var AltNumeDorit;
+ NumeDorit = 25; *Ii atribuim o valoare la variabila.
+ AltNumeDorit = 35;  
+document.write(NumeDorit+AltNumeDorit) *Asa o afisam (asta face suma intre ele)
+</script>
+
+
+-Variabile:
+
+<script>
+  var exemplu = 5;
+  document.write(typeof(exemplu)); *Verificam ce tip de variabila e
+</script>
+
+ var exemplu ="Test" *Daca vrem sa afisam ghilimele: \"Text intre ghilimele\"
+ var exemplu ='Test' *Se introduce textu intre '' nu intre "" "Text intre ghilimele"
+ document.write(exemplu);
+
+-boolean - accepta doar true sau false
+ var exemplu = true;
+ document.write(exemplu);
+
+-arey - vector de elemente, se trece intre [] 
+-are rolu de a retine mai multe elemente intr-o variabila
+ var materii = ["romana","matematica","fizica"]
+*ex: var materii
+ document.write(materii[0]); 0 pt romana,1 pt matematica, 2 pt fizica
+
+- Obiecte:
+ var pisica = {culoare:"alba", varsta:"2ani"}
+ document.write(pisica.0) *o sa afiseze culoarea alba
+
+
+- Operatii in JavaScript 
+
+ var numar = 10;
+ numar = numar + 5;
+ console.log(numar);
+
+var numar = 10;
+numar += 5; *va adauga 5 la valoarea existenta, adica 10
+
+
+var numar = 10;
+numar 
+
+
+ 
+
+
+ul=permite doar li unordered list
+ol= ordered list a,b,c
+obligatoriu sa fie mai la dreapta, urmaresc usor
+format selection-standardizare
+h=header
+src, width, placeholder: atribute
+td=table data
+tr=table row
+th=table header
+
+div= 3 chestii de o data
+div=sectiune mare 
+
+span= sectiune mica a selecta un cuvant
+a=link-uri 
+from= formular, a completa ceva in interioul lui 
+label= user 
+input = nu are continut efectiv, valoare ce scriem noi
+required= nu poti trece de acel camp
+clasa= mai multe element
+https://nmatei.github.io/web-intro-presentation/index.html#/attributes-details
+
+se poate doar un singur id  id="unique-id"
+margin: 5px 6px 7px 8px marginile din inafara tabelului nostru
+padding: 10px textu din interiorul paragrafului, de jur imprejur
+
+
+Selectoru: ce vrem sa facem 
+p - la cine ne referim cand folosim selectoru, va respecta tot ce e intre acolade
+# - #header, elementu care are id-ul respectiv ( # valoare )
+. - elementu sau elementele care au clasa repsectiv, punctu e ignorat, doar tot ce e dupa e ok
+
+rgb - trei culori, f e cel mai mare
+#summary{
+    color: #000;
+}
+
+rosu
+#summary{
+    color: #600;
+}
+
+<link rel="stylesheet" href="style.css"> - putem face mai multe style.css in functie de ce design vrem
+

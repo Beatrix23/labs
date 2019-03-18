@@ -1,0 +1,86 @@
+<html>
+
+<body>
+
+    <script type="text/javascript">
+        function Fibonacci(number) {
+            if (number == 1)
+                return true;
+            var a = 1;
+            var b = 2;
+            while (b <= number) {
+                if (b == number)
+                    return true;
+                else {
+                    var c = b;
+                    b = b + a;
+                    a = c;
+                }
+            }
+            return false;
+        }
+
+        document.write(Fibonacci(317811));
+
+        function Patrat(number) {
+            for (var i = 1; i * i <= number; i++) {
+                if (i * i == number)
+                    return true;
+            }
+            return false;
+        }
+
+        document.write("</br>");
+        document.write(Patrat(34));
+
+        /* se da un numar. sa se calculeze suma cifrelor numarului.
+         daca la un moment dat suma partiala este numar fibonacci suma partiala se ducleaza.
+         daca la un moment dat suma partiala este numar partat perfect suma partiala se injumatateste.
+        */
+        function sumaMagica(number) {
+            var suma;
+            suma = 0;
+            while (number > 0) {
+                suma = number % 10 + suma;
+                number = ~~(number / 10);
+                if (Fibonacci(suma) == true)
+                    suma = suma * 2;
+                else if (Patrat(suma) == true)
+                    suma = ~~(suma / 2);
+            }
+            return suma;
+        }
+
+        document.write("</br>");
+        document.write(sumaMagica(123));
+
+        function vocala(string) {
+            switch (string) {
+                case "A": return true;
+                case "E": return true;
+                case "I": return true;
+                case "O": return true;
+                case "U": return true;
+                case "a": return true;
+                case "e": return true;
+                case "i": return true;
+                case "o": return true;
+                case "u": return true;
+                default: return false;
+            }
+        }
+
+        /* se da un string sa se returneze un nou string alcatuit doar din vocalele string-ului initial sa se pastreze ordinea */
+
+        function oboseala(string) {
+            var cuvant = "";
+            for (caracter of string) {
+                if (vocala(caracter) == true)
+                    cuvant = cuvant + caracter;
+            }
+            return cuvant;
+        }
+    </script>
+</body>
+
+</html>

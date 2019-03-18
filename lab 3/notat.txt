@@ -1,0 +1,16 @@
+top menu bar = div
+div-header
+div-meniu
+div-continut
+div-zona de jos
+padding-verde
+div-header si div de continut
+cursor:pointer - pt manutaaaa
+var stocate in memoria ram
+se face spatiu si apoi se da valoare
+root element [ 1, 2 , 3 ]
+array si json = obiecte
+json cheie doua punte valoare 
+dom= document object model
+var el= doc.get.elembyid = parte imp cu interact cu pagina 
+var = false chestie de memorie 
