@@ -2,3 +2,5 @@ warn pt ceva sa sara in ochi inca nu e rezolvat
 query selector citea toate elem din browser
 dom elem = cele din browser
 string concatenare
+hoinsting
+plural -> foreach -> singular
