@@ -1,0 +1,7 @@
+` ` ` = coat js 6 
+\ = escape 
+json var bulina = {
+.. semanana cu css 
+ble : true,
+..
+};
