@@ -5,3 +5,5 @@ json var bulina = {
 ble : true,
 ..
 };
+if ( daca exista )
+lab 11/12 !!!!

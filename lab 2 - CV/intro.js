@@ -69,14 +69,14 @@ function showSkills() {
         {name:'nodejs', endorsements: 2}
     ];
 
+    skills.sort(function(a,b) {
+        return b.name > a.name ? -1 : 0
+        // return b.endorsements - a.endorsements;
+    }); 
+
     var htmlSkills = skills.map(function(skill) {
-        var endorsedBy = skill.endorsedBy;
-        if (endorsedBy) {
-            endorsedBy = ' - ' + endorsedBy;
-        } else {
-            endorsedBy = '';
-        }
-        var endorsements = ` <span class="endorsements">(${skill.endorsements}${endorsedBy})</span>`;
+        var endorsedBy = skill.endorsedBy ? '-' + skill.endorsedBy : "";
+        var endorsements  =  ` <span class="endorsements">(${skill.endorsements}${endorsedBy})</span>`;
         return '<li>' + skill.name.toUpperCase() +  endorsements + '</li>';
      });
 
